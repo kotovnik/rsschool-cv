@@ -6,7 +6,7 @@
 ******
 ### _Contacts_
 + [E-mail](kotovnik2024tbilisi@gmail.com)
-+ GitHub: kotovnik
++ [GitHub](https://github.com/kotovnik)
 
 ----
 
