@@ -1,2 +1,2 @@
 # rsschool-cv
-https://kotovnik.github.io/rsschool-cv/cv
+https://kotovnik.github.io/rsschool-cv/
