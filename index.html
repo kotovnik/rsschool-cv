@@ -77,29 +77,6 @@
               <li><span>English</span> - Pre-Intermediate</li>
           </ul>
       </section>
-      <section class="section" id="#code">
-          <h2 class="section-title">Code example</h2>
-          <pre>
-              <code>
-                  const smallestDivisor = (num) => {
-                    if (num === 1) {
-                      return 1;
-                    } else if (num % 2 === 0) {
-                      return 2;
-                    }
-                    const iter = (divisor, number) => {
-                      if (number % divisor === 0) {
-                        return divisor;
-                      }
-                      return iter(divisor + 1, number);
-                    };
-                    return iter(2, num);
-                  };
-                
-                  export default smallestDivisor;
-              </code>
-          </pre>
-      </section>
   </main>
   <footer class="footer">
       <div class="container">
