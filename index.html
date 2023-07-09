@@ -4,9 +4,88 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='style.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <title>CV</title>
 </head>
 <body>
-  <p>CV</p>
+  <header class="header">
+    <nav class="container">
+        <ul class="nav-list">
+            <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+            <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+            <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+            <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+            <li class="nav-item"><a href="#language" class="nav-link">Languages</a></li>
+        </ul>        
+    </nav>
+  </header>
+  <main class="main-container">
+      <section class="section" id="#profile">
+          <h1>Sergeeva Elena</h1>
+          <img src="./img/avartaka.jpg" alt="avatar" width="250">
+      </section>
+      <section class="section" id="#contacts">
+          <h2 class="section-title">Contacts information</h2>
+          <ul>
+              <li>Phone: +7995599899836</li>
+              <li>E-mail: kotovnik2024tbilisi@gmail.com</li>
+              <li>GitHub: https://github.com/kotovnik</li>
+          </ul>
+      </section>
+      <section class="section" id="#summary">
+          <h2 class="section-title">Briefly About Myself</h2>
+          <div>
+              <p>I'm interested in Web Development because this occupation provides endless possibilities for professional growth,
+                        besides there's a huge amount of free high quality resources for self-education and a large community of developers.</p>
+              <p>I believe, that my ability to learn and to gain new skills will lead me through this path of becoming a proficient Frontend Developer.</p>   
+              <p>My core strengths are in problem solving and fast learning. I want to get knowledge and skills that will be enough for employment in a company.</p>
+          </div>
+      </section>
+      <section class="section" id="#skills">
+          <h2 class="section-title">Skills and Proficiency</h2>
+          <ul>
+              <li>HTML5, CSS3</li>
+              <li>Git, GitHub</li>
+              <li>VS Code, Figma(for web development)</li>
+              <li>JavaScript (Fundamentals, ES6+, DOM, JSON)</li>
+          </ul>
+      </section>
+      <section class="section" id="#courses">
+          <h2 class="section-title">Courses</h2>
+          <ul>
+              <li><a href="https://ru.hexlet.io/courses/layout-designer-basics">Hexlet: Basics of modern layout</a></li>
+              <li><a href="https://ru.hexlet.io/courses/js-basics">Hexlet: JavaScript Basics</a></li>
+              <li>JavaScript Manual on learnjavascript.ru (in progress)</li>
+              <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+          </ul>
+      </section>
+      <section class="section" id="#projects">
+          <h2 class="section-title">Projects</h2>
+          <ul>
+              <li><a href="https://kotovnik.github.io/cssBayan/cssBayan/index.html">cssBayan</a></li>
+              <li><a href="https://kotovnik.github.io/rsschool-cv/">CV: HTML, CSS & Git Basics</a></li>
+          </ul>
+      </section>
+      <section class="section" id="#language">
+          <h2 class="section-title">Languages</h2>
+          <ul>
+              <li><span>English</span> - Pre-Intermediate</li>
+          </ul>
+      </section>
+  </main>
+  <footer class="footer">
+      <div class="container">
+          <ul class="nav-list">
+              <li class="nav-item"><a href="https://github.com/kotovnik" class="nav-link">My GitHub Account</a></li>
+              <li class="nav-item">2023</li>
+              <li class="nav-item"><a href=https://rs.school/js><img src="./img/rs_school_js.svg" class="nav-link" alt="logo" width="200"></a></li>
+          </ul>
+      </div>
+  </footer>
 </body>
 </html>
