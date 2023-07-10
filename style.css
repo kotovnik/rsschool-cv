@@ -31,6 +31,11 @@ footer {
   background-color: rgb(55 57 101);
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+}
+
 h1 {
   font-size: 32px;
   font-weight: 900;
