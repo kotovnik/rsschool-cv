@@ -47,11 +47,18 @@ export default smallestDivisor;
 ```
 ----
 
-### _Education & Courses:_ 
-+ [JS Basics](https://ru.hexlet.io/courses/js-basics)
+### _Education & Courses:_
++ [HTML: Layout for beginners](https://code-basics.com/ru/languages/html)
++ [CSS: Online learning from scratch](https://code-basics.com/ru/languages/css)
++ [JavaScript Course: Learning JS for beginners](https://code-basics.com/ru/languages/javascript)
 + [Basics Of Modern layout](https://ru.hexlet.io/courses/layout-designer-basics)
++ [JS Basics](https://ru.hexlet.io/courses/js-basics)
++ [Command Line Basics](https://ru.hexlet.io/courses/cli-basics)
 + [Introduction To Programming](https://ru.hexlet.io/courses/introduction_to_programming)
 + [Git Basics](https://ru.hexlet.io/courses/intro_to_git)
++ [https://learn.javascript.ru/](JavaScript Manual)
++ [https://rs.school/courses/javascript-ru](RS Schools Course «JavaScript/Front-end. Stage 0»)
+
 
 ----
 
