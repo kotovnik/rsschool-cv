@@ -30,6 +30,22 @@ footer {
   padding: 0 40px;
   background-color: rgb(55 57 101);
 }
+.projects-link,
+.study-link {
+  position: relative;
+  color: rgb(69, 53, 118);
+  text-decoration: none;
+}
+.projects-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: currentColor;
+  transition: 0.3s;
+}
 
 .container {
   display: flex;
@@ -67,7 +83,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  list-style: none; 
+  list-style: none;
 }
 
 .nav-link {
@@ -80,6 +96,7 @@ h1 {
   font-size: 90%;
   color: rgb(131, 131, 204);
   font-weight: 500;
+  transition: 0.4s;
 }
 
 .nav-item {
@@ -87,6 +104,20 @@ h1 {
 }
 @media (max-width: 768px) {
   .section {
+    width: 100%;
+  }
+}
+@media (hover: hover) {
+  .nav-link:hover {
+    color: rgb(187, 187, 238);
+    transition: 0.4s;
+  }
+  .projects-link:hover,
+  .study-link:hover {
+    color:rgb(0, 0, 0);
+    transition: 0.4s;
+  }
+  .projects-link:hover::after {
     width: 100%;
   }
 }
